@@ -39,6 +39,7 @@
 <li><a href="#example-12">Example 1.2</a></li>
 <li><a href="#example-13">Example 1.3</a></li>
 <li><a href="#example-14">Example 1.4</a></li>
+<li><a href="#example-15">Example 1.5</a></li>
 </ol>
 </li>
 </ol>
@@ -175,7 +176,7 @@
 <span class="pl-s1">    &lt;/<span class="pl-ent">style</span>&gt;</span>
   &lt;/<span class="pl-ent">head</span>&gt;
   &lt;<span class="pl-ent">body</span>&gt;
-    &lt;<span class="pl-ent">h1</span>&gt;This is red header&lt;/<span class="pl-ent">h1</span>&gt;
+    &lt;<span class="pl-ent">h1</span>&gt;This is a red header&lt;/<span class="pl-ent">h1</span>&gt;
     &lt;<span class="pl-ent">p</span>&gt;
       This is a blue paragraph!
     &lt;/<span class="pl-ent">p</span>&gt;
@@ -186,6 +187,54 @@
 
 <div class="highlight highlight-source-css"><pre><span class="pl-ent">h1</span>{
   <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">red</span>;
+}</pre></div>
+
+<h3>
+<a id="example-15" class="anchor" href="#example-15" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example 1.5</h3>
+
+<p>HTML_CSS.html</p>
+
+<div class="highlight highlight-text-html-basic"><pre>&lt;!DOCTYPE html&gt;
+&lt;<span class="pl-ent">html</span>&gt;
+  &lt;<span class="pl-ent">head</span>&gt;
+    &lt;<span class="pl-ent">meta</span> <span class="pl-e">charset</span>=<span class="pl-s"><span class="pl-pds">"</span>utf-8<span class="pl-pds">"</span></span>&gt;
+    &lt;<span class="pl-ent">title</span>&gt;HTML CSS&lt;/<span class="pl-ent">title</span>&gt;
+    &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>style.css<span class="pl-pds">"</span></span>&gt;
+  &lt;/<span class="pl-ent">head</span>&gt;
+  &lt;<span class="pl-ent">body</span>&gt;
+    &lt;<span class="pl-ent">h1</span>&gt;This is a red h1 header with 1px border, 15px border radius, and a width that is 50% of its parent element&lt;/<span class="pl-ent">h1</span>&gt;
+    &lt;<span class="pl-ent">h1</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>blue-bold<span class="pl-pds">"</span></span>&gt;This is a bold blue h1 header with a yellow background&lt;/<span class="pl-ent">h1</span>&gt;
+    &lt;<span class="pl-ent">div</span>&gt;
+      &lt;<span class="pl-ent">p</span>&gt;
+        This is a big green right aligned paragraph in Arial font!
+      &lt;/<span class="pl-ent">p</span>&gt;
+    &lt;/<span class="pl-ent">div</span>&gt;
+    &lt;<span class="pl-ent">a</span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>#<span class="pl-pds">"</span></span>&gt;This is just big and green&lt;/<span class="pl-ent">a</span>&gt;
+  &lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<p>style.css</p>
+
+<div class="highlight highlight-source-css"><pre><span class="pl-ent">h1</span>{
+  <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">red</span>;
+  <span class="pl-c1"><span class="pl-c1">border</span></span>: <span class="pl-c1">1<span class="pl-k">px</span></span> <span class="pl-c1">solid</span> <span class="pl-c1">black</span>;
+  <span class="pl-c1"><span class="pl-c1">border-radius</span></span>: <span class="pl-c1">15<span class="pl-k">px</span></span>;
+  <span class="pl-c1"><span class="pl-c1">width</span></span>: <span class="pl-c1">50<span class="pl-k">%</span></span>;
+}
+<span class="pl-e">.blue-bold</span>{
+  <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">blue</span>;
+  <span class="pl-c1"><span class="pl-c1">font-weight</span></span>: <span class="pl-c1">bold</span>;
+  <span class="pl-c1"><span class="pl-c1">background</span></span>: <span class="pl-c1">yellow</span>;
+  <span class="pl-c1"><span class="pl-c1">border</span></span>: <span class="pl-c1">none</span>;
+  <span class="pl-c1"><span class="pl-c1">border-radius</span></span>: <span class="pl-c1">0</span>;
+}
+<span class="pl-ent">div</span> <span class="pl-ent">p</span>{
+  <span class="pl-c1"><span class="pl-c1">font-family</span></span>: <span class="pl-c1">Arial</span>, <span class="pl-c1">sans-serif</span>;
+  <span class="pl-c1"><span class="pl-c1">text-align</span></span>: <span class="pl-c1">right</span>;
+}
+<span class="pl-ent">p</span>, <span class="pl-ent">a</span>{
+  <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">green</span>;
+  <span class="pl-c1"><span class="pl-c1">font-size</span></span>: <span class="pl-c1">300<span class="pl-k">%</span></span>;
 }</pre></div>
       </section>
     </div>
