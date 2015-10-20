@@ -127,7 +127,7 @@ HTML_head.html
     </style>
   </head>
   <body>
-    <h1>This is red header</h1>
+    <h1>This is a red header</h1>
     <p>
       This is a blue paragraph!
     </p>
@@ -138,5 +138,51 @@ styles.css
 ```css
 h1{
   color: red;
+}
+```
+###Example 1.5
+HTML_CSS.html
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML CSS</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>This is a red h1 header with 1px border, 15px border radius, and a width that is 50% of its parent element</h1>
+    <h1 class="blue-bold">This is a bold blue h1 header with a yellow background</h1>
+    <div>
+      <p>
+        This is a big green right aligned paragraph in Arial font!
+      </p>
+    </div>
+    <a href="#">This is just big and green</a>
+  </body>
+</html>
+```
+style.css
+```css
+h1{
+  color: red;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 50%;
+}
+.blue-bold{
+  color: blue;
+  font-weight: bold;
+  background: yellow;
+  border: none;
+  border-radius: 0;
+}
+div p{
+  font-family: Arial, sans-serif;
+  text-align: right;
+}
+p, a{
+  color: green;
+  font-size: 300%;
 }
 ```
