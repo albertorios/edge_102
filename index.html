@@ -38,6 +38,7 @@
 <li><a href="#example-11">Example 1.1</a></li>
 <li><a href="#example-12">Example 1.2</a></li>
 <li><a href="#example-13">Example 1.3</a></li>
+<li><a href="#example-14">Example 1.4</a></li>
 </ol>
 </li>
 </ol>
@@ -56,6 +57,26 @@
 
 <h3>
 <a id="example-11" class="anchor" href="#example-11" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example 1.1</h3>
+
+<p>hello_world.html</p>
+
+<div class="highlight highlight-text-html-basic"><pre>&lt;!DOCTYPE html&gt;
+&lt;<span class="pl-ent">html</span>&gt;
+  &lt;<span class="pl-ent">head</span>&gt;
+    &lt;<span class="pl-ent">meta</span> <span class="pl-e">charset</span>=<span class="pl-s"><span class="pl-pds">"</span>utf-8<span class="pl-pds">"</span></span>&gt;
+    &lt;<span class="pl-ent">title</span>&gt;Hello World!&lt;/<span class="pl-ent">title</span>&gt;
+  &lt;/<span class="pl-ent">head</span>&gt;
+  &lt;<span class="pl-ent">body</span>&gt;
+    &lt;<span class="pl-ent">p</span>&gt;
+      Hello,World!
+    &lt;/<span class="pl-ent">p</span>&gt;
+  &lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<h3>
+<a id="example-12" class="anchor" href="#example-12" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example 1.2</h3>
+
+<p>HTML_Elements.html</p>
 
 <div class="highlight highlight-text-html-basic"><pre>&lt;!DOCTYPE html&gt;
 &lt;<span class="pl-ent">html</span>&gt;
@@ -96,14 +117,16 @@
     &lt;/<span class="pl-ent">p</span>&gt;
     &lt;<span class="pl-ent">img</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>https://pbs.twimg.com/media/BfXAH8RCAAAx5Tv.jpg<span class="pl-pds">"</span></span> <span class="pl-e">alt</span>=<span class="pl-s"><span class="pl-pds">"</span>Dun Boyir parti at mansooto<span class="pl-pds">"</span></span> /&gt;
     <span class="pl-c">&lt;!--  This is a comment! --&gt;</span>
+    &lt;<span class="pl-ent">div</span>&gt;
+      This is a div!
+    &lt;/<span class="pl-ent">div</span>&gt;
   &lt;/<span class="pl-ent">body</span>&gt;
-  &lt;<span class="pl-ent">div</span>&gt;
-    This is a div!
-  &lt;/<span class="pl-ent">div</span>&gt;
 &lt;/<span class="pl-ent">html</span>&gt;</pre></div>
 
 <h3>
 <a id="example-13" class="anchor" href="#example-13" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example 1.3</h3>
+
+<p>HTML_Attributes.html</p>
 
 <div class="highlight highlight-text-html-basic"><pre>&lt;!DOCTYPE html&gt;
 &lt;<span class="pl-ent">html</span>&gt;
@@ -122,17 +145,48 @@
       &lt;<span class="pl-ent">b</span>&gt;and&lt;/<span class="pl-ent">b</span>&gt; the title attribute "I am a tool tip" &lt;<span class="pl-ent">b</span>&gt;and&lt;/<span class="pl-ent">b</span>&gt; the alt attribute "Dun Boyir parti at mansooto"!
     &lt;/<span class="pl-ent">p</span>&gt;
     &lt;<span class="pl-ent">img</span> <span class="pl-e">title</span>=<span class="pl-s"><span class="pl-pds">"</span>I am a tool tip<span class="pl-pds">"</span></span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>https://pbs.twimg.com/media/BfXAH8RCAAAx5Tv.jpg<span class="pl-pds">"</span></span> <span class="pl-e">alt</span>=<span class="pl-s"><span class="pl-pds">"</span>Dun Boyir parti at mansooto<span class="pl-pds">"</span></span> /&gt;
+    &lt;<span class="pl-ent">p</span>&gt;
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    &lt;/<span class="pl-ent">p</span>&gt;
+    &lt;<span class="pl-ent">p</span>&gt;
+      Fun Fact: You can use an id attribute of an element in a &lt;<span class="pl-ent">a</span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>#header_1<span class="pl-pds">"</span></span>&gt;link&lt;/<span class="pl-ent">a</span>&gt; to create internal links. Just
+      use the id as the href of a link prefixed by a "#".
+    &lt;/<span class="pl-ent">p</span>&gt;
   &lt;/<span class="pl-ent">body</span>&gt;
-  &lt;<span class="pl-ent">p</span>&gt;
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  &lt;/<span class="pl-ent">p</span>&gt;
-  &lt;<span class="pl-ent">p</span>&gt;
-    Fun Fact: You can use an id attribute of an element in a &lt;<span class="pl-ent">a</span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>#header_1<span class="pl-pds">"</span></span>&gt;link&lt;/<span class="pl-ent">a</span>&gt; to create internal links. Just
-    use the id as the href of a link prefixed by a "#".
-  &lt;/<span class="pl-ent">p</span>&gt;
 &lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<h3>
+<a id="example-14" class="anchor" href="#example-14" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example 1.4</h3>
+
+<p>HTML_head.html</p>
+
+<div class="highlight highlight-text-html-basic"><pre>&lt;!DOCTYPE html&gt;
+&lt;<span class="pl-ent">html</span>&gt;
+  &lt;<span class="pl-ent">head</span>&gt;
+    &lt;<span class="pl-ent">meta</span> <span class="pl-e">charset</span>=<span class="pl-s"><span class="pl-pds">"</span>utf-8<span class="pl-pds">"</span></span>&gt;
+    &lt;<span class="pl-ent">title</span>&gt;HTML Head&lt;/<span class="pl-ent">title</span>&gt;
+    &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>style.css<span class="pl-pds">"</span></span>&gt;
+<span class="pl-s1">    &lt;<span class="pl-ent">style</span> <span class="pl-e">media</span>=<span class="pl-s"><span class="pl-pds">"</span>screen<span class="pl-pds">"</span></span>&gt;</span>
+<span class="pl-s1">      <span class="pl-ent">p</span>{</span>
+<span class="pl-s1">        <span class="pl-c1"><span class="pl-c1">color</span></span>:<span class="pl-c1">blue</span>;</span>
+<span class="pl-s1">      }</span>
+<span class="pl-s1">    &lt;/<span class="pl-ent">style</span>&gt;</span>
+  &lt;/<span class="pl-ent">head</span>&gt;
+  &lt;<span class="pl-ent">body</span>&gt;
+    &lt;<span class="pl-ent">h1</span>&gt;This is red header&lt;/<span class="pl-ent">h1</span>&gt;
+    &lt;<span class="pl-ent">p</span>&gt;
+      This is a blue paragraph!
+    &lt;/<span class="pl-ent">p</span>&gt;
+  &lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<p>styles.css</p>
+
+<div class="highlight highlight-source-css"><pre><span class="pl-ent">h1</span>{
+  <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">red</span>;
+}</pre></div>
       </section>
     </div>
     <footer>
